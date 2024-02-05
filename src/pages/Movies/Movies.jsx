@@ -38,11 +38,9 @@ const Movies = () => {
     updateQueryString(query);
   };
 
-  const goBackfunc = () => {};
-
   return (
     <>
-      <Title title=" Movie Search" />
+      <Title title="Movie Search" />
       <SearchForm
         handleSubmit={handleSubmit}
         handleChange={handleChange}
