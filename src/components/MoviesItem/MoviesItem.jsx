@@ -9,7 +9,7 @@ const MoviesItem = ({ item }) => {
         item.map((movie) => {
           return (
             <li key={movie.id}>
-              <Link to={`movies/${movie.id}`}>
+              <Link to={`/movies/${movie.id}`}>
                 {(movie.title && movie.title) || (movie.name && movie.name)}
               </Link>
             </li>
